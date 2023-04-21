@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # Hiperparámetros
 
     buffer_size = 100000 # tamaño de la memoria de replay
-    learning_rate = 0.00001 
+    learning_rate = 0.0001 
     batch_size = 32 # tamaño del subconjunto tomado del buffer de replay
     learning_starts = 100000 # cuántos pasos en agente debería recolectar transiciones antes de empezar a aprender (coincide con la memoria de replay llena)
     target_update_interval = 1000 # frecuencia en pasos en la que se actualiza la target network
@@ -20,7 +20,7 @@ if __name__ == "__main__":
     gradient_steps = 1 
     exploration_fraction = 0.1 # fracción en la que se va reduciendo la tasa de exploración
     exploration_final_eps = 0.01 # valor final de la probabilidad de elegir una acción aleatoria
-    frames = 2 # tamaño del stack de frames
+    frames = 4 # tamaño del stack de frames
 
     timesteps = 10000000
     juego = "BoxingNoFrameskip-v4"
