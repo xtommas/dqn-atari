@@ -15,7 +15,7 @@ if __name__ == "__main__":
     
     juego = "BoxingNoFrameskip-v4"
     env = make_atari_env(juego)
-    env = VecFrameStack(env, n_stack = 2)
+    env = VecFrameStack(env, n_stack = 4)
 
     root = tk.Tk()
     root.withdraw()
