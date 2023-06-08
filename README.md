@@ -1,5 +1,5 @@
 # Deep Q-Networks en juegos de Atari
-Scritps para entrenar y testear modelos que jueguen a los juegos Breakout, Space Invaders y Boxing de Atari 2600 utilizando Deep Q-Networks. Se incluyen además modelos preentrenados con distintos hiperparámetros, que fueron utilizados para analizar cómo afectan el entrenamiento y la recompensa obtenida por el agente en cada uno de los juegos, que es parte del trabajo realizado en mi trabajo final para la Licenciatura en Ciencias de la Computación.
+Scripts para entrenar y testear modelos que jueguen a los juegos Breakout, Space Invaders y Boxing de Atari 2600 utilizando Deep Q-Networks. Se incluyen además modelos preentrenados con distintos hiperparámetros, que fueron utilizados para analizar cómo afectan el entrenamiento y la recompensa obtenida por el agente en cada uno de los juegos, que es parte del trabajo realizado en mi trabajo final para la Licenciatura en Ciencias de la Computación.
 
 # Setup
 Todas las herramientas son compatibles con Python 3.7, por lo que se recomienda esta versión.
